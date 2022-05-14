@@ -84,7 +84,7 @@ lsusb should now recognize the PineNote as
 2207:350a Fuzhou Rockchip Electronics Company USB download gadget
 ```
 
-List partitions:
+List partitions (needs root):
 ```
 > rkdeveloptool list-partitions                      
 #   LBA start (sectors)  LBA end (sectors)  Size (bytes)       Name                
