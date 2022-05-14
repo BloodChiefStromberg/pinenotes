@@ -71,13 +71,13 @@ cmake ..
 
 ### Download mode
 
-Enter the download mode by placing the pen as pictured below.
+Enter the download mode by placing the pen as pictured below while the device is off.
 A magnet placed where the pen's cap is should also work (haven't tried).
 I guess the dot on the case also indicates the position of the sensor.
 
 ![placing pen on the back](static/download_mode.jpg)
 
-lsusb should now recognize the PineNote as
+Turn the device on. lsusb should now recognize the PineNote as
 ```
 2207:350a Fuzhou Rockchip Electronics Company USB download gadget
 ```
