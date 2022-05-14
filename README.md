@@ -67,7 +67,9 @@ cd rkdeveloptool
 mkdir build
 cd build
 cmake ..
+make
 ```
+You might have to install [scdoc](https://git.sr.ht/~sircmpwn/scdoc) if you don't have it.
 
 ### Download mode
 
