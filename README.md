@@ -181,8 +181,8 @@ https://forum.pine64.org/showthread.php?tid=15598
 - 3 Dots -> Show System
 - Search for "Settings" and open
 
-Enable ADB the standard way.
-This didn't work immediately for me, so I also set the "Default USB configuration" to PTP, after which I had to reenable ADB.
+Enable ADB the standard way by selecting "About tablet" and tapping the "build number" entry 7 times.
+This didn't work immediately for me, so I also set the "Default USB configuration" to PTP, after which I had to reenable ADB. Make sure you have enabled "USB Debugging" in the "developer options".
 Then I got the permission prompt.
 
 ### Magisk
@@ -294,6 +294,7 @@ tar cf ../modules.tar *
 rm -r ../modules
 popd
 ```
+The build will fail if you don't have flex and bison installed.
 
 ### Export firmware
 
